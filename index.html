@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <title>Урок 6 — Позиционирование и эффекты</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<h1>Урок 6 — Позиционирование, обрезка и эффекты</h1>
+
+<section class="container">
+
+    <div id="scroll">
+        Эта секция имеет значение scroll свойства overflow. Поэтому полосы
+        прокрутки показаны, хотя и не нужны.
+    </div>
+
+    <div id="hidden">
+        Эта секция имеет значение hidden свойства overflow. Поэтому
+        непоместившийся в нее текст остаётся невидимым.
+    </div>
+
+    <div id="visible">
+        Эта секция имеет значение visible свойства overflow. Поэтому часть
+        текста (если его много) может выходить за её границы.
+        <br><br>
+        Дополнительный текст специально для демонстрации.
+    </div>
+
+</section>
+
+<h2>Свойство clip</h2>
+
+<section class="clip-area">
+    <div id="div1"></div>
+    <div id="div2"></div>
+</section>
+
+</body>
+</html>
